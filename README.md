@@ -4,7 +4,10 @@ This is a single bash script to **back up and restore**:
 Use when anticipating many changes to the configuration, setup, or files of Docker or MicroK8s.
 ---
 ## Files
-| File                          | Purpose                                   ||-------------------------------|-------------------------------------------|| `backup_microk8s_docker.sh`  | Backup/restore script                     || `server-backups/`            | Stores all backup archives (auto-created) |
+| File                          | Purpose                                    |
+|-------------------------------|--------------------------------------------|
+| `backup_microk8s_docker.sh`   | Backup/restore script                      |
+| `server-backups/`             | Stores all backup archives (auto-created)  |
 ---
 ## Requirements
 - Ubuntu Server- `bash`, `tar`, `gzip`- Docker installed and running- MicroK8s installed and running
@@ -76,3 +79,4 @@ This will:
 ## 🔒 License
 
 MIT – feel free to modify or adapt for personal or commercial use.
+
